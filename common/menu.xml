@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="euc-kr"?>  
+<menu>
+	<movie txt="Intro" link="01.swf"></movie>
+	<movie txt="들어가기" link="02.swf">
+		<detail txt="생각해보기" link="02.swf"></detail>
+		<detail txt="학습내용 및 학습목표" link="03.swf"></detail>
+	</movie>
+	<movie txt="학습하기" link="04.swf">
+		<detail txt="동영상 강의" link="05.swf" flv="rtmp://bodum.gscdn.com/bodum/_definst_/500014/01/bup_01_01.flv" download="file.zip">
+			<cue cue="#1" time = "00:05"></cue>
+			<cue cue="#2" time = "01:14"></cue>
+			<cue cue="#3" time = "03:13"></cue>
+			<cue cue="#4" time = "04:22"></cue>
+			<cue cue="#5" time = "04:43"></cue>
+			<cue cue="#6" time = "05:22"></cue>
+			<cue cue="#7" time = "05:25"></cue>
+			<cue cue="#8" time = "05:51"></cue>
+			<cue cue="#9" time = "11:28"></cue>
+			<cue cue="#10" time = "15:12"></cue>
+			<cue cue="#11" time = "22:37"></cue>
+			<cue cue="#12" time = "26:11"></cue>
+			<cue cue="#13" time = "35:27"></cue>
+		</detail>
+		<detail txt="쉬어가기" link="06.swf"></detail>
+	</movie>
+	<movie txt="평가하기" link="07.swf">
+		<detail txt="퀴즈퀴즈" link="07.swf"></detail>
+	</movie>
+	<movie txt="정리하기" link="08.swf">
+		<detail txt="나만의 정리노트" link="08.swf"></detail>
+	</movie>
+	<movie txt="Outro" link="09.swf"></movie>
+</menu>
+
+<lecture>
+	<chapter txt="Intro" link="01.html" 			headCategory="0" bodyCategory="" />
+	<chapter txt="생각해보기" link="02.html" 			headCategory="1" bodyCategory="0" />
+	<chapter txt="학습내용 및 학습목표" link="03.html" 	headCategory="1" bodyCategory="1" />
+	<chapter txt="학습하기" link="04.html" 			headCategory="2" bodyCategory="" />
+	<chapter txt="동영상 강의" link="05.html" 			headCategory="2" bodyCategory="0" />
+	<chapter txt="쉬어가기" link="06.html" 			headCategory="2" bodyCategory="1" />
+	<chapter txt="퀴즈퀴즈" link="07.html" 			headCategory="3" bodyCategory="0" />
+	<chapter txt="나만의 정리노트" link="08.html" 		headCategory="4" bodyCategory="0" />
+	<chapter txt="Outro" link="09.html" 			headCategory="5" bodyCategory="0" />
+</lecture>
+
+
+<!--
+좌측 메뉴의 디폴트 선택을 위한 노드가 추가됩니다.
+headCategory
+bodyCategory
+
+빈값 ("")일 경우 하위 메뉴와 상위 메뉴의 카테고리가 다름..
+
+-->
